@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todo
-        image: nginx:latest
+        image: nginx:perl
         ports:
         - containerPort: 8000
